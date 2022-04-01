@@ -1,0 +1,30 @@
+{
+  "name": "tdl-ts",
+  "version": "1.0.0",
+  "description": "test driver learn typescript",
+  "author": "Hayes Lv<417703682@qq.com>(https://github.com/hayeslv/)",
+  "keywords": [
+    "typescript"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:w": "tsc -w",
+    "test": "tsd"
+  },
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1",
+    "tsd": "^0.19.1"
+  },
+  "tsd": {
+    "directory": "test-dts",
+    "compilerOptions": {
+      "strict": false,
+      "lib": [
+        "esnext",
+        "dom"
+      ]
+    }
+  }
+}
