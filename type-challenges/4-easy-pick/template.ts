@@ -2,7 +2,7 @@
 
 
 // keyof T：获取T中所有的key
-// K extends：约束 K 是属于 keyof T 的。这里会过滤掉不属于 keyof T 的内容
+// K extends：约束 K 是属于 keyof T 的。
 // [P in K]：遍历K，P就是每一次遍历的值
 // T[P]：取值
 
