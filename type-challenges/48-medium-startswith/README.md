@@ -1,4 +1,4 @@
-实现'StartsWith<T，U>'，它接受两种精确的字符串类型，并返回'T'是否以'U'开头`
+实现'StartsWith<T，U>'，它接受两种精确的字符串类型，并返回'T'是否以'U'开头
 
 For example
 

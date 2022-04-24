@@ -9,12 +9,12 @@ type PartialByKeys<T, K = keyof T> = Copy<Omit<T, K & keyof T> & {
 }>
 
 
-interface User {
-  name: string
-  age: number
-  address: string
-}
-type p1 = PartialByKeys<User, 'name'>
-type p2 = PartialByKeys<User, 'name' | 'unknown'>
-type p3 = PartialByKeys<User, 'name' | 'age'>
-type p4 = PartialByKeys<User>
+// interface User {
+//   name: string
+//   age: number
+//   address: string
+// }
+// type p1 = PartialByKeys<User, 'name'>
+// type p2 = PartialByKeys<User, 'name' | 'unknown'>
+// type p3 = PartialByKeys<User, 'name' | 'age'>
+// type p4 = PartialByKeys<User>
