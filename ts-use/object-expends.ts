@@ -83,3 +83,4 @@ type r5 = ExpandRecursive<obj11> // 此时就展开了
 
 // !展开泛型函数
 type r6 = ExpandRecursive<Todo10>
+
