@@ -13,9 +13,10 @@ type ObjectEntries<T> = keyof T extends infer P
   : never;
 
 
-interface Model {
-  name?: string
-  age: number
-  locations: string[] | null
-}
-type p1 = ObjectEntries<Model>
+// interface Model {
+//   name?: string
+//   age: number
+//   locations: string[] | null
+// }
+// type p1 = ObjectEntries<Model>
+// type p2 = Partial<Model>

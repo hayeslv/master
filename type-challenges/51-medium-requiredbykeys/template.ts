@@ -12,3 +12,9 @@ type RequiredByKeys<T, K = keyof T> = Copy<
 // }
 
 // type p1 = RequiredByKeys<User1, 'name'>
+
+type obj = {
+  name: string;
+  age: number;
+}
+type p1 = keyof obj
