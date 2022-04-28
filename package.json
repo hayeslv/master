@@ -11,7 +11,8 @@
   "scripts": {
     "build": "tsc",
     "build:w": "tsc -w",
-    "test": "tsd"
+    "test": "tsd",
+    "file": "node script/create-new-file.js"
   },
   "dependencies": {
     "@type-challenges/utils": "^0.1.1",
